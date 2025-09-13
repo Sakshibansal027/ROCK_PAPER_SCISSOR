@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#heading_1 {
+  background-color: cadetblue;
+  width: 100vw;
+  height: 8vh;
+  text-align: center;
+}
+#head {
+  text-align: center;
+  position: absolute;
+  top: 7px;
+  left: 38vw;
+  font-size: 50px;
+}
+.choices {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+.rock {
+  aspect-ratio: 1;
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+.rock:hover {
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.paper:hover {
+  background-color: black;
+  border: 2px solid black;
+  opacity: 650%;
+  cursor: pointer;
+}
+.scissor:hover {
+  background-color: black;
+  border: 2px solid black;
+  opacity: 650%;
+  cursor: pointer;
+}
+.paper {
+  aspect-ratio: 1;
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+.scissor {
+  aspect-ratio: 1;
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+.you {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+.computer {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+}
+.Scores_p {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 400px;
+  left: 840px;
+}
+.Scores_c {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1100px;
+}
+.message {
+  display: inline-block;
+
+  background-color: cadetblue;
+  font-size: 25px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-left: 100px;
+  margin-top: 400px;
+  color: white;
+}
+.message_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
